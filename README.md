@@ -6,6 +6,7 @@
 * numpy
 * scipy
 * sklearn
+* pickle
 * matplotlib
 
 ## Run on your dataset
