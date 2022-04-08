@@ -1,8 +1,16 @@
 # Framework-for-Deep-Power-K-means
 
+## Dependencies
+* Python
+* Pytorch
+* numpy
+* scipy
+* sklearn
+* matplotlib
+
 ## Run on your dataset
 
-1. Store your dataset in a .npz file with :
+1. Store your dataset in a .npz file with :  
   a. dataset['feature'] -> (num_points, feat_dim)  
   b. dataset['target'] -> (num_points,)
   
