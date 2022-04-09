@@ -40,15 +40,15 @@ def parse_opt():
     parser.add_argument(
         '--p_rate',
         type=float,
-        default=1.5)
+        default=1.5) # rate at which the power_k value decreases in each iteration
     parser.add_argument(
         '--power_k',
         type=int,
-        default=-3)
+        default=-3) # initial value of the power in power mean objective
     parser.add_argument(
         '--maxSvalues',
         type=int,
-        default=20)
+        default=20) #the number of smoother power-mean objectives to use; basically number of annealing steps
 
     # path settings
     parser.add_argument('--input_path', type=str, default="./inputs/data.npz")
