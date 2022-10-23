@@ -48,8 +48,8 @@ _While tuning parameters, please keep in mind that the starting value of the Pow
 ## Run on your dataset
 
 1. Store your dataset in a .npz file with :  
-  * _dataset['feature'] (num_samples, feat_dim)_
-  * _dataset['target'] (num_samples,)_
+  * dataset['feature'] _array of shape (num_samples, feat_dim)_
+  * dataset['target'] _array of shape (num_samples,)_
   
 2. Run the run.py with input_path for the dataset.npz file and output path for the results and plots. Other hyper-parameters as modified as required. The complete list of tunable parameters can be found in opts.py.  
 ```
