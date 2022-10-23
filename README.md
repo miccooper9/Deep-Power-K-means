@@ -9,7 +9,7 @@ This is an experimental framework to jointly learn cluster representations and o
 
 
 <p align="center">
-  <img src="extras/powerk.png" width="900" height="700" title="powerk">
+  <img src="extras/powerk.png" width="700" height="700" title="powerk">
 </p> 
 
 
