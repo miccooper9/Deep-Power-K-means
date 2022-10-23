@@ -30,4 +30,6 @@ While tuning parameters, please keep in mind that the starting value of the Powe
   b. dataset['target'] -> (num_points,)
   
 2. Run the run.py with input_path for the dataset.npz file and output path for the results and plots. Other hyper-parameters as modified as required. The complete list of tunable parameters can be found in opts.py.  
-`python run.py --input_path --output_path --plot_path`
+```
+python run.py --input_path --output_path --plot_path
+```
