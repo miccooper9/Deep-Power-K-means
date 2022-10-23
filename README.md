@@ -13,13 +13,15 @@ While tuning parameters, please keep in mind that the starting value of the Powe
 
 
 ## Dependencies
+```
 * Python
 * Pytorch
 * numpy
 * scipy
-* sklearn
+* scikit-learn
 * pickle
 * matplotlib
+```
 
 ## Run on your dataset
 
