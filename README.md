@@ -20,7 +20,7 @@ Power K-means tries to optimise the k-means objective iteratively through a seri
 * [Deep k-Means: Jointly clustering with k-Means and learning representations](https://arxiv.org/pdf/1806.10069.pdf)
 
 <p>
-<img src = "extras/deepk.png" width = "700" height = "500">  
+<img src = "extras/deepk.png" width = "1000" height = "500">  
 <p>
 
 In deep K-means, low dimensional cluster representations are jointly learned using an Auto-encoder loss and a differentiable surrogate for the K-means objective.  
