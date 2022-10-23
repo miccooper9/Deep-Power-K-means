@@ -1,4 +1,4 @@
-# Framework-for-Deep-Power-K-means
+# Deep Power k-means framework
 
 ## Introduction
 
