@@ -4,22 +4,26 @@
 
 This is an experimental framework to jointly learn cluster representations and optimise the power K means objective. This work is inspired by the two papers :  
 
----
+
 * [Power k-Means Clustering](http://proceedings.mlr.press/v97/xu19a/xu19a.pdf). 
 
 
 <p align="center">
   <img src="extras/powerk.png" width="900" height="700" title="powerk">
-</p>. 
+</p> 
 
 
 Power K-means tries to optimise the k-means objective iteratively through a series of smoother power-mean objectives, using the Majorisation-Minimisation principle.  
----
+
+----
 
 * [Deep k-Means: Jointly clustering with k-Means and learning representations](https://arxiv.org/pdf/1806.10069.pdf)
-----
-![deepk](extras/deepk.png). 
+
+![deepk](extras/deepk.png).  
+
 In deep K-means, low dimensional cluster representations are jointly learned using an Auto-encoder loss and a differentiable surrogate for the K-means objective.  
+
+---
 
 
 In this implementation, I have tried to jointly optimise the power means objective together with the auto-encoder loss for each iteration of the power k-means algorithm. Following Deep K-means, the power-mean loss in each iteration is computed on the low dimensional cluster and data representations.
