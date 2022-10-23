@@ -13,7 +13,7 @@ This is an experimental framework to jointly learn cluster representations and o
 |<img width="1604" src="extras/pk0.png"> |  <img width="1604" src="extras/pk1.png"> | <img width="1604" src="extras/pk2.png"> | <img width="1604" src="extras/pk3.png">
 
 
-Power K-means tries to optimise the k-means objective iteratively through a series of smoother power-mean objectives, using the Majorisation-Minimisation principle.  
+Power K-means tries to optimise the k-means objective iteratively through a series of smoother power-mean objectives, using the Majorisation-Minimisation principle, by exploiting the concavity of the kolmogorov mean for s <= 1.
 
 ----
 
@@ -30,7 +30,7 @@ In deep K-means, low dimensional cluster representations are jointly learned usi
 
 This implementation allows you to jointly optimise the power means objective together with the auto-encoder loss for each iteration of the power k-means algorithm. Following Deep K-means, the power-mean loss in each iteration is computed on the low dimensional cluster and data representations.
 
-_While tuning parameters, please keep in mind that the starting value of the Power_k param should be < 1 to ensure convergence and facilitate the learning process. (Proof can be found in the Power K-means paper.)_
+_While tuning parameters, please keep in mind that the starting value of the **power_k** param (s), should be <= 1 to ensure convergence and < 0 to use the multiplicative schedule implemented here._
 
 
 
