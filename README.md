@@ -4,7 +4,7 @@
 
 This is an experimental framework to jointly learn cluster representations and optimise the power K means objective. This work is inspired by the two papers :  
 * [Power k-Means Clustering](http://proceedings.mlr.press/v97/xu19a/xu19a.pdf). 
-![powerk](extras/powerk.png). 
+![powerk](extras/powerk.png = 200x200). 
 
 Power K-means tries to optimise the k-means objective iteratively through a series of smoother power-mean objectives, using the Majorisation-Minimisation principle.  
 
