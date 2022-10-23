@@ -10,7 +10,7 @@ This is an experimental framework to jointly learn cluster representations and o
 
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" src="extras/powerk.png"> |  <img width="1604" src="extras/powerk.png"> | <img width="1604" src="extras/powerk.png"> | <img width="1604" src="extras/powerk.png">
+|<img width="1604" src="extras/pk0.png"> |  <img width="1604" src="extras/pk1.png"> | <img width="1604" src="extras/pk2.png"> | <img width="1604" src="extras/pk3.png">
 
 
 Power K-means tries to optimise the k-means objective iteratively through a series of smoother power-mean objectives, using the Majorisation-Minimisation principle.  
