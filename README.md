@@ -30,7 +30,8 @@ In deep K-means, low dimensional cluster representations are jointly learned usi
 
 This implementation allows you to jointly optimise the power means objective together with the auto-encoder loss for each iteration of the power k-means algorithm. Following Deep K-means, the power-mean loss in each iteration is computed on the low dimensional cluster and data representations.
 
-_While tuning parameters, please keep in mind that the starting value of the **power_k** param (s), should be <= 1 to ensure convergence and < 0 to use the multiplicative schedule implemented here._
+_While tuning parameters, please keep in mind that the starting value of the **power_k** param (s), should be <= 1 to ensure convergence and   
+                                                                                                                 < 0 to use the multiplicative schedule implemented here._
 
 
 
